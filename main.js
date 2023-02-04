@@ -18,4 +18,5 @@ for (let i = 0; i < 1; i++) {
     inspirationalMessages.push(`You are ${wisdomSources.adjectives[adjectiveIdx]}. ${wisdomSources.actions[actionIdx]}. ${wisdomSources.wordsOfEncouragement[wordsOfEncouragementIdx]}.`)
 }
 
-console.log(inspirationalMessages)
+console.log(inspirationalMessages.join(''))
+
